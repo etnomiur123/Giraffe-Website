@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+hr{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+/* NAVIGATION BAR */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.left-side{
+    display: flex;
+    padding-left: 10px;
+}
+
+.right-side p{
+    font-size: 14px;
+    color: rgb(75, 71, 71);
+    margin-top: 0;
+    padding-right: 10px;
+}
+
+nav a {
+    font-size: 14px;
+    margin-right: 12px;
+    color: rgb(75, 71, 71);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+nav a:hover{
+    border-bottom: 1px solid  rgb(155, 146, 146);
+    transition: border-bottom 0.5s;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+}
+
+.welcome-section{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    height:100vh;
+    background-image: url("images/welcome.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.welcome-section h1{
+    display: inline-block;
+    font-size: 80px;
+    margin: 0;
+    padding-top:80px;
+    width: 300px;
+    
+}
+
+.history-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    justify-items: center;
+}
+
+img{
+    width: 95%;
+}
+
+.description-text h2 {
+    font-size: 30px;
+}
+
+.description-text {
+    width: 90%;
+    padding-top: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list-container {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color:rgb(75, 71, 71);
+    font-size: 14px;
+}
+
+ul li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color:rgb(107, 104, 104);
+}
+
+.footer-container img {
+    width: 50px;
+}
+
+
+
+
+
+
